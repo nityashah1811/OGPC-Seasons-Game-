@@ -25,7 +25,7 @@ public class PlayerJump : MonoBehaviour
         {
             if (Input.GetButtonDown("Jump"))
             {
-                rb.AddForce(new Vector3(0, 5, 0), ForceMode.Impulse);
+                rb.AddForce(new Vector3(rb.velocity.x, 5, rb.velocity.z), ForceMode.Impulse);
                 playerIsOnTheGround = false;
 
             }
