@@ -18,7 +18,7 @@ public class PlayerEatsApple : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-       if (collision.gameObject.tag == "Untagged")
+       if (collision.gameObject.tag == "Apple")
         {
             Destroy(collision.gameObject);
         }
