@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -953,10 +953,10 @@ PrefabInstance:
       addedObject: {fileID: 1697956143}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c8f1015f0551acc49a7731cc196e7c16, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1697956142}
+      addedObject: {fileID: 1697956146}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c8f1015f0551acc49a7731cc196e7c16, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1697956146}
+      addedObject: {fileID: 1697956147}
     - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: c8f1015f0551acc49a7731cc196e7c16, type: 3}
       insertIndex: -1
       addedObject: {fileID: 281706692}
@@ -971,20 +971,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c8f1015f0551acc49a7731cc196e7c16, type: 3}
   m_PrefabInstance: {fileID: 1697956139}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1697956142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697956140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3e5cdc157481df4abdcb048754c9122, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 5
 --- !u!114 &1697956143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1062,6 +1048,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1697956147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697956140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e5cdc157481df4abdcb048754c9122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpForce: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
