@@ -2,28 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerEatsApple : MonoBehaviour
+public class PickUpApple : MonoBehaviour
 {
-    AudioSource crunchSound;
-
     // Start is called before the first frame update
+
+    public GameObject PickBackpack;
+
     void Start()
     {
-        crunchSound = GetComponent<AudioSource>();
+        PickBackpack.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerStay(Collider other)
     {
-        
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-       if (collision.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            Destroy(collision.gameObject);
-            crunchSound.Play();
+
+            PickBackpack.SetActive(true);
+
+            if (Input.GetKey(KeyCode.F))
+            {
+                this.gameObject.SetActive(false);
+
+                PickBackpack.SetActive(false);
+            }
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        PickBackpack.SetActive(false);
     }
 }
