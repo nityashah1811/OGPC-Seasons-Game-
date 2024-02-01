@@ -123,37 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &166740529
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 166740530}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &166740530
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166740529}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.84, y: 0.81, z: -17.28}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &474512893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -260,6 +229,10 @@ PrefabInstance:
     - target: {fileID: 3250489041314859672, guid: 89687b876d81bd74b9eb2c1263c48326, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636857464281656627, guid: 89687b876d81bd74b9eb2c1263c48326, type: 3}
+      propertyPath: mouseSensitivity
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 5761199845556912321, guid: 89687b876d81bd74b9eb2c1263c48326, type: 3}
       propertyPath: m_LocalPosition.x
@@ -881,4 +854,3 @@ SceneRoots:
   - {fileID: 1089561794}
   - {fileID: 971206250}
   - {fileID: 474512893}
-  - {fileID: 166740530}
