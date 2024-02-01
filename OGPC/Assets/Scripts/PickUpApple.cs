@@ -18,9 +18,9 @@ public class PlayerEatsApple : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
-       if (collision.gameObject.tag == "Apple")
+       if (collision.gameObject.tag == "Player")
         {
             Destroy(collision.gameObject);
             crunchSound.Play();
