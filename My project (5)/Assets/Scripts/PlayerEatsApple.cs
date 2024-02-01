@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class PlayerEatsApple : MonoBehaviour
 {
+    AudioSource crunchSound;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        crunchSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,6 +23,7 @@ public class PlayerEatsApple : MonoBehaviour
        if (collision.gameObject.tag == "Apple")
         {
             Destroy(collision.gameObject);
+            crunchSound.Play();
         }
     }
 }
