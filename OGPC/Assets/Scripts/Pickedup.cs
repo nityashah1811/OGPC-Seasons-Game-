@@ -15,7 +15,7 @@ public class Pickedup : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if(other.gameObject.tag == "Character")
+        if (other.gameObject.tag == "Player")
         {
 
             PickBackpack.SetActive(true);
