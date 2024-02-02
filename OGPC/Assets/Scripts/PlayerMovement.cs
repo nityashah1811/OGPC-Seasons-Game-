@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
 
     public float speed = 18f;
-    public float sprintSpeed = 29f; // New variable for sprint speed
+    public float sprintSpeed = 35f; // New variable for sprint speed
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
 
@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
 
         // Check if Left Shift is held down for sprinting
-        float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : speed;
+        float currentSpeed = Input.GetKey(KeyCode.LeftControl) ? sprintSpeed : speed;
 
         controller.Move(move * currentSpeed * Time.deltaTime);
 
