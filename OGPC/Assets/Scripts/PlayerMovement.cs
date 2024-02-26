@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
 
         // Check if Left Shift is held down for sprinting
-        float currentSpeed = Input.GetKey(KeyCode.LeftControl) ? sprintSpeed : speed;
+        float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : speed;
 
         controller.Move(move * currentSpeed * Time.deltaTime);
 
