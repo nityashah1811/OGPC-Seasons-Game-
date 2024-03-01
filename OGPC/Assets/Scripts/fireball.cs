@@ -14,7 +14,11 @@ public class fireball : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Destroy(collision.gameObject);
+        if (collision.gameObject.tag != "Plane")
+        {
+            Destroy(collision.gameObject);
+        }
+
         Destroy(gameObject);
     }
 }
