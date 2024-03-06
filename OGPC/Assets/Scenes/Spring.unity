@@ -441,15 +441,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0525378d60f93f04a80d61f986818442, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.676533
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0525378d60f93f04a80d61f986818442, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 79.1
+      value: -5.13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0525378d60f93f04a80d61f986818442, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 80.8
+      value: -331
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0525378d60f93f04a80d61f986818442, type: 3}
       propertyPath: m_LocalRotation.w
@@ -478,6 +478,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0525378d60f93f04a80d61f986818442, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4622227557853002870, guid: 0525378d60f93f04a80d61f986818442, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 336
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0525378d60f93f04a80d61f986818442, type: 3}
       propertyPath: m_Name
@@ -610,6 +614,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8229975950297471624, guid: 89687b876d81bd74b9eb2c1263c48326, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2130369239}
+    - targetCorrespondingSourceObject: {fileID: 8229975950297471624, guid: 89687b876d81bd74b9eb2c1263c48326, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1304056383}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 815956721508439744, guid: 89687b876d81bd74b9eb2c1263c48326, type: 3}
       insertIndex: -1
@@ -632,19 +639,45 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 94099676}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 4961486293044144898, guid: 78f071e6c363b3048b6e617f5ac0d410, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.61
+=======
+    - target: {fileID: -8679921383154817045, guid: e4e760e958690334fb46e905c37ebf45, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.10000005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4e760e958690334fb46e905c37ebf45, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4e760e958690334fb46e905c37ebf45, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.10000005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4e760e958690334fb46e905c37ebf45, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.08991437
+>>>>>>> parent of be1b66b (Revert "Arrow Kinda works needs a little fine tuning")
       objectReference: {fileID: 0}
     - target: {fileID: 4961486293044144898, guid: 78f071e6c363b3048b6e617f5ac0d410, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: 9.12
+=======
+      value: -0.8099997
+>>>>>>> parent of be1b66b (Revert "Arrow Kinda works needs a little fine tuning")
       objectReference: {fileID: 0}
     - target: {fileID: 4961486293044144898, guid: 78f071e6c363b3048b6e617f5ac0d410, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 8.9
+=======
+      value: 2.5299988
+>>>>>>> parent of be1b66b (Revert "Arrow Kinda works needs a little fine tuning")
       objectReference: {fileID: 0}
     - target: {fileID: 4961486293044144898, guid: 78f071e6c363b3048b6e617f5ac0d410, type: 3}
       propertyPath: m_LocalRotation.w
@@ -681,8 +714,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< HEAD
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78f071e6c363b3048b6e617f5ac0d410, type: 3}
+=======
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e4e760e958690334fb46e905c37ebf45, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1304056384}
+  m_SourcePrefab: {fileID: 100100000, guid: e4e760e958690334fb46e905c37ebf45, type: 3}
+>>>>>>> parent of be1b66b (Revert "Arrow Kinda works needs a little fine tuning")
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,6 +1032,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 50, y: 10, z: 50}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &884488248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,6 +1108,13 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884488248}
   m_CullTransparentMesh: 1
+=======
+--- !u!4 &783806200 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0525378d60f93f04a80d61f986818442, type: 3}
+  m_PrefabInstance: {fileID: 474512893}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of be1b66b (Revert "Arrow Kinda works needs a little fine tuning")
 --- !u!1 &907440695 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3594853049704861901, guid: ba165cec2c5fe6347ab635ed29e75cf6, type: 3}
@@ -1504,6 +1553,7 @@ RectTransform:
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1237484052
 GameObject:
+<<<<<<< HEAD
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1540,6 +1590,17 @@ RectTransform:
   m_SizeDelta: {x: 210, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1237484054
+=======
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e4e760e958690334fb46e905c37ebf45, type: 3}
+  m_PrefabInstance: {fileID: 617141248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1304056383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e4e760e958690334fb46e905c37ebf45, type: 3}
+  m_PrefabInstance: {fileID: 617141248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1304056384
+>>>>>>> parent of be1b66b (Revert "Arrow Kinda works needs a little fine tuning")
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1548,6 +1609,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1237484052}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1685,6 +1747,13 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+=======
+  m_Script: {fileID: 11500000, guid: e2f79da014bdc514386ad77f06505d7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apple: {fileID: 783806200}
+  rotationSpeed: 3
+>>>>>>> parent of be1b66b (Revert "Arrow Kinda works needs a little fine tuning")
 --- !u!1 &1466970018
 GameObject:
   m_ObjectHideFlags: 0

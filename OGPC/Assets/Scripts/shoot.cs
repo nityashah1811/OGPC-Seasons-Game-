@@ -17,7 +17,6 @@ public class shoot : MonoBehaviour
         }
 
         // Debug line to visualize the forward direction
-        Debug.DrawRay(bulletSpawnPoint.position, bulletSpawnPoint.forward * 10, Color.red, 1.0f);
     }
 
 }
