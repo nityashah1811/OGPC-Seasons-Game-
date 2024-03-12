@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PickUpApple : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class PickUpApple : MonoBehaviour
             if (Input.GetKey(KeyCode.F))
             {
                 this.gameObject.SetActive(false);
-
+                Applemanager.Instance.IncreaseAppleCount();
                 PickBackpack.SetActive(false);
             }
         }
